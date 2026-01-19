@@ -132,11 +132,15 @@ nav .menu a{
      position: absolute;
      top: 50%;
      left: 50%;
-     width: 120px;
+     width: 120px; 
      transform: translate(-50%, -50%);
-     z-index: 2
+    transition: transform 0.6s ease, filter 0.6s ease;
+    z-index: 2
  }
-
+.hero-circle:hover .microphone {
+  transform: translateY(-18px);
+  
+}
  h3{
     font-size: 60px;
     font-weight: 700;
