@@ -398,3 +398,84 @@ nav .menu a{
     max-width: 360px;
   }
 }
+.author-card {
+  background: #351165;
+  padding: 30px;
+  border-radius: 24px;
+  max-width: 1000px;
+  width: 90%;
+  margin: 40px auto;
+}
+
+.author-content {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.author-img img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-text h2 {
+  color: #fff;
+  font-size: 26px;
+  margin-bottom: 10px;
+}
+
+.author-text p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: start;
+  margin-bottom: 18px;
+  opacity: 80%;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #533C72;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.social-icons a img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.social-icons a:hover {
+  background: #533C72;
+}
+@media (max-width: 576px) {
+  .why h3 {
+    font-size: 32px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .author-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .author-text p {
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+}
