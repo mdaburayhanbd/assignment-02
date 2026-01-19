@@ -479,3 +479,60 @@ nav .menu a{
     justify-content: center;
   }
 }
+.footer {
+  height: 320px;
+  padding: 40px 20px;
+  background: url("assets/footer-bg.png") no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  gap: 28px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.icons a img {
+  width: 18px;
+  height: 18px;
+}
+
+.icons a:hover {
+  color: #533C72;
+}
+
+.copyright {
+  color: #fff;
+  font-size: 16px;
+  opacity: 80%;
+}
+@media (max-width: 600px) {
+  .icons a span {
+    display: none;  
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+}
