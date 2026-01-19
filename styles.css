@@ -229,3 +229,34 @@ nav .menu a{
     padding: 0 10px;
   }
 }
+.stats-section{
+   margin: 0 auto;
+   padding-bottom: 80px;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap: 40px;
+   text-align: center;
+   
+ }
+ .stats-section h2{
+   font-size: 48px;
+   color: #00FF88;
+   font-weight: 900;
+ }
+ .stats-section p{
+   text-align: center;
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   opacity: 80%;
+ }
+ @media (max-width: 576px) {
+  .stats-section {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+  }
+
+  .stats-section h2 {
+    font-size: 32px;
+  }
+}
