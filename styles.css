@@ -198,7 +198,34 @@ nav .menu a{
 
   .hero p {
     font-size: 14px;
+  } 
+}
+.about{
+    padding: 80px 20px 60px;
+    text-align: center;
+ }
+ .about h3{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 24px;
+
+ }
+ .about-text {
+    max-width: 720px;
+    margin: 0 auto 24px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #fff;
+    opacity: 0.8;
+}
+@media (max-width: 576px) {
+  .about h3 {
+    font-size: 32px;
   }
 
-  
+  .about-text {
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
 }
