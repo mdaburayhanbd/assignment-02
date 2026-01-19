@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;  
+}
+body {
+   background-color: #1A0B2E;
+}
+header{
+    padding: 30px;
+}
+.btn-primary{
+    background: linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 12px 18px;
+    border-radius:100px ; 
+ }    
+
+.btn-primary button{
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+}
+.btn-primary:hover{
+    background: transparent;
+    border: 1px solid #fff;
+}
+.hamburger {
+  display: none;
+  font-size: 28px;
+  color: #fff;
+  cursor: pointer;
+}
+nav{
+    width: 100%;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+h1{
+    color: #fff;
+    font-size: 40px ;
+}
+h1 span{
+    background:linear-gradient(90deg,rgba(247, 233, 63, 1) 0%, rgba(251, 9, 180, 1) 51%, rgba(145, 0, 248, 1) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    align-items: center;
+}
+nav .menu ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+    align-items: center;
+}
+nav .menu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none; 
+}
