@@ -345,3 +345,56 @@ nav .menu a{
     padding-right: 0;
   }
 }
+.feature{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 40px;
+   padding-bottom: 60px;
+   gap: 30px;
+ }
+ .feature div {
+   width: 380px;
+   background: #250D44;
+   border-radius: 25px;
+ }
+ .feature h5{
+   font-size: 24px;
+   font-weight: 600;
+   color: #fff;
+   padding: 20px;
+ }
+.feature p{
+   font-size: 16px;
+   font-weight: 400;
+   color: #fff;
+   opacity: 80%;
+   text-align: start;
+   padding: 0 20px ;  
+}
+.feature .time{
+   color: #00FF88;
+}
+.feature iframe {
+  width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 16 / 9;
+  border-radius: 25px;
+}
+@media (max-width: 576px) {
+  .why h3 {
+    font-size: 32px;
+    padding-top: 60px;
+    text-align: center;
+  }
+  .feature {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .feature div {
+    width: 100%;
+    max-width: 360px;
+  }
+}
